@@ -4,7 +4,7 @@ public class cliente extends classPadre  {
 
     private int id;
 
-    public cliente(String name, String lastname, String age, String email, int id) {
+    public cliente(String name, String lastname, int age, String email, int id) {
         super(name, lastname, age, email);
         this.id = id;
     }
@@ -19,7 +19,11 @@ public class cliente extends classPadre  {
 
     @Override
     public String toString() {
-        return "cliente [id=" + id + "]";
+        return "cliente [id=" + id + ", \ngetId()=" + getId() + ", \ngetName()=" + getName()
+         + ", \ngetLastname()="
+                + getLastname() + ", \ngetAge()=" + getAge() + ", \ngetEmail()=" + getEmail() + ",\ntoString()="
+                + super.toString() + ", \ngetClass()=" + getClass() + ", \nhashCode()=" + hashCode() + "]";
     }
+
 
 }

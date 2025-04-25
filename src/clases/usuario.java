@@ -5,7 +5,7 @@ public class usuario extends classPadre {
     private String username;
     private String password;
     
-    public usuario(String name, String lastname, String age, String email, String username, String password) {
+    public usuario(String name, String lastname, int age, String email, String username, String password) {
         super(name, lastname, age, email);
         this.username = username;
         this.password = password;

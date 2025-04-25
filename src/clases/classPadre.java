@@ -4,13 +4,13 @@ public class classPadre {
 
     private String name;
     private String lastname;
-    private String age;
+    private int age;
     private String email;
 
     public classPadre() {
     }
 
-    public classPadre(String name, String lastname, String age, String email) {
+    public classPadre(String name, String lastname, int age, String email) {
         this.name = name;
         this.lastname = lastname;
         this.age = age;
@@ -33,11 +33,11 @@ public class classPadre {
         this.lastname = lastname;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
