@@ -19,7 +19,11 @@ public class cliente extends classPadre  {
 
     @Override
     public String toString() {
-        return "cliente [id=" + id + "]";
+        return "cliente [id=" + id + ", \ngetId()=" + getId() + ", \ngetName()=" + getName()
+         + ", \ngetLastname()="
+                + getLastname() + ", \ngetAge()=" + getAge() + ", \ngetEmail()=" + getEmail() + ",\ntoString()="
+                + super.toString() + ", \ngetClass()=" + getClass() + ", \nhashCode()=" + hashCode() + "]";
     }
+
 
 }
